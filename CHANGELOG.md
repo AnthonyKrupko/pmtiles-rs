@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+
+- [**breaking**] store `MokaCache` directories in `Arc`s to avoid cloning directory entries on cache hits
+
 ## [0.24.0](https://github.com/stadiamaps/pmtiles-rs/compare/v0.23.1...v0.24.0) - 2026-08-11
 
 ### Added
